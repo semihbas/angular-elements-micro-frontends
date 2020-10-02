@@ -7,11 +7,11 @@ const concat = require('concat');
     console.log('Project Name required as argument');
   } else {
     const files_es2015 = [
-      './dist/' + prgName + '/polyfill-webcomp-es5.js',
-      './dist/' + prgName + '/polyfill-webcomp.js',
+      //'./dist/' + prgName + '/polyfill-webcomp-es5.js',
+      //'./dist/' + prgName + '/polyfill-webcomp.js',
       // './dist/' + prgName + '/polyfills-es2015.js',
-      './dist/' + prgName + '/polyfills.js',
-      './dist/' + prgName + '/scripts.js',
+      //'./dist/' + prgName + '/polyfills.js',
+      //'./dist/' + prgName + '/scripts.js',
       // './dist/' + prgName + '/main-es2015.js'
       './dist/' + prgName + '/main.js'
     ]
@@ -20,11 +20,11 @@ const concat = require('concat');
 
 
     const files_es5 = [
-      './dist/' + prgName + '/polyfill-webcomp-es5.js',
-      './dist/' + prgName + '/polyfill-webcomp.js',
+     // './dist/' + prgName + '/polyfill-webcomp-es5.js',
+     // './dist/' + prgName + '/polyfill-webcomp.js',
       // './dist/' + prgName + '/polyfills-es5.js',
-      './dist/' + prgName + '/polyfills.js',
-      './dist/' + prgName + '/scripts.js',
+     // './dist/' + prgName + '/polyfills.js',
+    //  './dist/' + prgName + '/scripts.js',
       // './dist/' + prgName + '/main-es5.js'
       './dist/' + prgName + '/main.js'
     ]

@@ -16,7 +16,6 @@
             "outputPath": "dist/client-reports",
             "index": "projects/client-reports/src/index.html",
             "main": "projects/client-reports/src/main.ts",
-            "polyfills": "projects/client-reports/src/polyfills.ts",
             "tsConfig": "projects/client-reports/tsconfig.app.json",
             "aot": true,
             "assets": [
@@ -27,55 +26,7 @@
               "projects/client-reports/src/styles.css",
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
             ],
-            "scripts": [{
-                "bundleName": "polyfill-webcomp-es5",
-                "input": "node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"
-              },
-              {
-                "bundleName": "polyfill-webcomp",
-                "input": "node_modules/@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce-pf.js"
-              },
-              "node_modules/rxjs/bundles/rxjs.umd.js",
-              "node_modules/@angular/core/bundles/core.umd.js",
-              "node_modules/@angular/common/bundles/common.umd.js",
-              "node_modules/@angular/common/bundles/common-http.umd.js",
-              "node_modules/@angular/compiler/bundles/compiler.umd.js",
-              "node_modules/@angular/elements/bundles/elements.umd.js",
-              "node_modules/@angular/router/bundles/router.umd.js",
-              "node_modules/@angular/platform-browser/bundles/platform-browser.umd.js",
-              "node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js",
-
-
-
-              "node_modules/@angular/cdk/bundles/cdk.umd.js",
-              "node_modules/@angular/cdk/bundles/cdk-keycodes.umd.js",
-              "node_modules/@angular/cdk/bundles/cdk-coercion.umd.js",
-              "node_modules/@angular/cdk/bundles/cdk-observers.umd.js",
-              "node_modules/@angular/cdk/bundles/cdk-platform.umd.js",
-              "node_modules/@angular/cdk/bundles/cdk-bidi.umd.js",
-              "node_modules/@angular/cdk/bundles/cdk-a11y.umd.js",
-              "node_modules/@angular/cdk/bundles/cdk-portal.umd.js",
-              "node_modules/@angular/animations/bundles/animations.umd.js",
-              "node_modules/@angular/animations/bundles/animations-browser.umd.js",
-              "node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js",
-
-              "node_modules/@angular/material/bundles/material.umd.js",
-              "node_modules/@angular/material/bundles/material-core.umd.js",
-              "node_modules/@angular/material/bundles/material-button.umd.js",
-              "node_modules/@angular/material/bundles/material-card.umd.js",
-              "node_modules/@angular/material/bundles/material-datepicker.umd.js",
-              "node_modules/@angular/material/bundles/material-form-field.umd.js",
-              "node_modules/@angular/material/bundles/material-icon.umd.js",
-              "node_modules/@angular/material/bundles/material-input.umd.js",
-              "node_modules/@angular/material/bundles/material-list.umd.js",
-              "node_modules/@angular/material/bundles/material-paginator.umd.js",
-              "node_modules/@angular/material/bundles/material-sort.umd.js",
-              "node_modules/@angular/material/bundles/material-table.umd.js",
-              "node_modules/@angular/material/bundles/material-tooltip.umd.js"
-
-
-
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -179,7 +130,6 @@
             "outputPath": "dist/client-documents",
             "index": "projects/client-documents/src/index.html",
             "main": "projects/client-documents/src/main.ts",
-            "polyfills": "projects/client-documents/src/polyfills.ts",
             "tsConfig": "projects/client-documents/tsconfig.app.json",
             "aot": true,
             "assets": [
@@ -189,23 +139,7 @@
             "styles": [
               "projects/client-documents/src/styles.css"
             ],
-            "scripts": [{
-                "bundleName": "polyfill-webcomp-es5",
-                "input": "node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"
-              },
-              {
-                "bundleName": "polyfill-webcomp",
-                "input": "node_modules/@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce-pf.js"
-              },
-              "node_modules/rxjs/bundles/rxjs.umd.js",
-              "node_modules/@angular/core/bundles/core.umd.js",
-              "node_modules/@angular/common/bundles/common.umd.js",
-              "node_modules/@angular/common/bundles/common-http.umd.js",
-              "node_modules/@angular/compiler/bundles/compiler.umd.js",
-              "node_modules/@angular/elements/bundles/elements.umd.js",
-              "node_modules/@angular/platform-browser/bundles/platform-browser.umd.js",
-              "node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
